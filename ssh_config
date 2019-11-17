@@ -1,0 +1,11 @@
+# UMich GitLab
+Host gitlab
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/kyra
+
+# CAEN
+Host kem
+    HostName login.engin.umich.edu
+    User kyraman
+    Compression yes
